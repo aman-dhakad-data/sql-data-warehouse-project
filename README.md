@@ -15,13 +15,12 @@ from ERP and CRM source systems.
 - Git & GitHub
 
 ## 📂 Project Structure
-
+```
 scripts/
 ├── bronze/    # Raw data load scripts
-
 ├── silver/    # Data cleaning scripts
-
 └── gold/      # Analytical model scripts
+```
 
 ## 📊 Data Sources
 - CRM System (3 CSV files)
