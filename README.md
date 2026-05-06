@@ -1,2 +1,26 @@
-# sql-data-warehouse-project
-Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics.
+# SQL Data Warehouse Project
+
+A data warehouse built with SQL Server using Medallion Architecture 
+(Bronze, Silver, Gold layers) to consolidate and analyze sales data 
+from ERP and CRM source systems.
+
+## 🏗️ Architecture
+- **Bronze Layer**: Raw data ingested from CSV files
+- **Silver Layer**: Cleaned and standardized data
+- **Gold Layer**: Business-ready star schema for analytics
+
+## 🛠️ Tools Used
+- SQL Server Express
+- SQL Server Management Studio (SSMS)
+- Git & GitHub
+
+## 📂 Project Structure
+
+scripts/
+├── bronze/    # Raw data load scripts
+├── silver/    # Data cleaning scripts
+└── gold/      # Analytical model scripts
+
+## 📊 Data Sources
+- CRM System (3 CSV files)
+- ERP System (3 CSV files)
