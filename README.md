@@ -18,7 +18,9 @@ from ERP and CRM source systems.
 
 scripts/
 ├── bronze/    # Raw data load scripts
+
 ├── silver/    # Data cleaning scripts
+
 └── gold/      # Analytical model scripts
 
 ## 📊 Data Sources
