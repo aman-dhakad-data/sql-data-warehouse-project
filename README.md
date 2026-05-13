@@ -25,3 +25,8 @@ scripts/
 ## 📊 Data Sources
 - CRM System (3 CSV files)
 - ERP System (3 CSV files)
+
+## 📚 Documentation
+
+- [Data Catalog](docs/data_catalog.md)
+- [Naming Conventions](docs/naming_conventions.md)
